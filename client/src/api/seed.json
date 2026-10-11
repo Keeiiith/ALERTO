@@ -1,0 +1,155 @@
+{
+  "profile": {
+    "name": "Helo",
+    "email": "helo@hau.edu.ph",
+    "phone": "+63 917 000 0000",
+    "quietHoursStart": "08:00",
+    "quietHoursEnd": "22:00",
+    "timezone": "Asia/Manila",
+    "maxDailyCapacityHours": 6
+  },
+
+  "subjects": [
+    {
+      "id": "sub-cs301",
+      "code": "CS301",
+      "name": "Algorithms & Computational Complexity",
+      "instructor": "Dr. Sarah Lin",
+      "department": "Dept. of Computer Science",
+      "units": 3,
+      "schedule": "MWF 10:00 AM - 11:30 AM",
+      "location": "Lecture Hall B",
+      "feedUrl": "https://canvas.institution.edu/feeds/courses/cs301.ics",
+      "feedSource": "Canvas LMS Sync",
+      "syncStatus": "connected",
+      "lastSyncedMinutesAgo": 20,
+      "color": "teal"
+    },
+    {
+      "id": "sub-math240",
+      "code": "MATH240",
+      "name": "Differential Equations & Linear Algebra",
+      "instructor": "Prof. Marcus Thorne",
+      "department": "Dept. of Mathematics",
+      "units": 4,
+      "schedule": "TTh 1:00 PM - 2:30 PM",
+      "location": "Math Annex Rm 310",
+      "feedUrl": "https://canvas.institution.edu/feeds/courses/math240.ics",
+      "feedSource": "Canvas LMS Connected",
+      "syncStatus": "connected",
+      "lastSyncedMinutesAgo": 60,
+      "color": "violet"
+    },
+    {
+      "id": "sub-phy102",
+      "code": "PHY102",
+      "name": "General Physics II (Electromagnetism)",
+      "instructor": "Dr. Aris Vance",
+      "department": "Dept. of Physics",
+      "units": 4,
+      "schedule": "MWF 3:00 PM - 4:30 PM",
+      "location": "Lab 408",
+      "feedUrl": "",
+      "feedSource": "Faculty Portal Direct",
+      "syncStatus": "connected",
+      "lastSyncedMinutesAgo": 180,
+      "color": "amber"
+    },
+    {
+      "id": "sub-eng210",
+      "code": "ENG210",
+      "name": "Technical Writing & Research Documentation",
+      "instructor": "Elena Rostova",
+      "department": "Dept. of English",
+      "units": 3,
+      "schedule": "TTh 4:00 PM - 5:30 PM",
+      "location": "Humanities Bldg 12",
+      "feedUrl": "",
+      "feedSource": "Moodle Feed Synced",
+      "syncStatus": "connected",
+      "lastSyncedMinutesAgo": 300,
+      "color": "rose"
+    }
+  ],
+
+  "announcements": [
+    {
+      "id": "ann-1",
+      "subjectId": "sub-cs301",
+      "receivedAt": "2026-09-24T09:15:00.000Z",
+      "source": "Canvas LMS Feed",
+      "summary": [
+        "Midterm Exam 1 has been officially shifted to Thursday morning to avoid the scheduled power grid maintenance in Science Block.",
+        "Seating plan updated; split between Hall B and Hall C depending on alphabetical surname order.",
+        "Mandatory submission of the revised handwritten cheat sheet through the Canvas module portal prior to Wednesday midnight."
+      ],
+      "deliverableIds": ["del-1", "del-2", "del-3"]
+    },
+    {
+      "id": "ann-2",
+      "subjectId": "sub-math240",
+      "receivedAt": "2026-09-23T15:40:00.000Z",
+      "source": "Class Board Announcement",
+      "summary": [
+        "Homework Assignment Set #4 deadline extended by 24 hours due to theorem clarification lecture.",
+        "TA review hours scheduled for Wednesday 2 PM in Math Common Room 304."
+      ],
+      "deliverableIds": ["del-4", "del-5"]
+    },
+    {
+      "id": "ann-3",
+      "subjectId": "sub-phy102",
+      "receivedAt": "2026-09-22T11:20:00.000Z",
+      "source": "Faculty Email Direct",
+      "summary": [
+        "Lab report on magnetic induction must be turned in directly to Dr. Vance's pigeonhole or the LMS drop box.",
+        "Safety eyewear inspection mandatory prior to accessing high-voltage benches on Friday."
+      ],
+      "deliverableIds": ["del-6", "del-7"]
+    }
+  ],
+
+  "deliverables": [
+    { "id": "del-1", "subjectId": "sub-cs301", "type": "EXAM", "title": "Midterm Exam 1 - Mechanics", "dueAt": "2026-09-25T10:00:00.000Z", "location": "Hall B", "hoursEstimate": 3, "status": "pending" },
+    { "id": "del-2", "subjectId": "sub-cs301", "type": "BRING_ITEM", "title": "Non-programmable Scientific Calculator & Blue Exam Booklet", "dueAt": "2026-09-25T10:00:00.000Z", "location": "Hall B", "hoursEstimate": 0, "status": "pending" },
+    { "id": "del-3", "subjectId": "sub-cs301", "type": "ASSIGNMENT", "title": "Submit Formula Cheat Sheet via Portal", "dueAt": "2026-09-24T23:59:00.000Z", "location": "Canvas Portal", "hoursEstimate": 1.5, "status": "pending" },
+    { "id": "del-4", "subjectId": "sub-math240", "type": "ASSIGNMENT", "title": "Problem Set #4: Eigenvalues & Laplace", "dueAt": "2026-09-26T17:00:00.000Z", "location": "Canvas Portal", "hoursEstimate": 2.5, "status": "pending" },
+    { "id": "del-5", "subjectId": "sub-math240", "type": "STUDY_SESSION", "title": "TA Review & Clarification Session", "dueAt": "2026-09-25T14:00:00.000Z", "location": "Math Common Room 304", "hoursEstimate": 1, "status": "pending" },
+    { "id": "del-6", "subjectId": "sub-phy102", "type": "ASSIGNMENT", "title": "Lab Report #3: Magnetic Induction", "dueAt": "2026-09-27T12:00:00.000Z", "location": "LMS Drop Box", "hoursEstimate": 2, "status": "pending" },
+    { "id": "del-7", "subjectId": "sub-phy102", "type": "BRING_ITEM", "title": "ANSI Z87.1 Safety Eyewear", "dueAt": "2026-09-25T15:00:00.000Z", "location": "Lab 408", "hoursEstimate": 0, "status": "pending" },
+    { "id": "del-8", "subjectId": "sub-eng210", "type": "ASSIGNMENT", "title": "Research Draft Peer Review", "dueAt": "2026-09-25T17:30:00.000Z", "location": "Humanities Bldg 12", "hoursEstimate": 3, "status": "pending" }
+  ],
+
+  "alerts": [
+    {
+      "id": "alert-1",
+      "severity": "CRITICAL",
+      "title": "Schedule Clash",
+      "message": "CS301 Midterm 1 conflicts with the Formula Cheat Sheet submission window. Both due within hours of each other.",
+      "context": "Both due Sep 25, 10:00 AM",
+      "createdMinutesAgo": 20,
+      "channels": ["Email", "SMS"],
+      "status": "Delivered"
+    },
+    {
+      "id": "alert-2",
+      "severity": "HIGH",
+      "title": "Daily Capacity Strain",
+      "message": "Daily workload exceeds threshold: 8.5 projected hours for Thursday.",
+      "context": "Recommendation: reschedule the research draft review",
+      "createdMinutesAgo": 120,
+      "channels": ["Email", "SMS"],
+      "status": "Delivered"
+    },
+    {
+      "id": "alert-3",
+      "severity": "MODERATE",
+      "title": "Exam Requirement",
+      "message": "Bring scientific calculator & blue exam booklet for CS301.",
+      "context": "Proctored session in Hall B",
+      "createdMinutesAgo": 480,
+      "channels": ["Email"],
+      "status": "Opened"
+    }
+  ]
+}
